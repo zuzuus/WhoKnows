@@ -1,1 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
+    <!-- APP -->
+
+    <string name="app_name">WhoKnows?</string>
+
+    <!-- MAIN SCREEN -->
+
+    <string name="quiz_title">Quiz</string>
+    <string name="start_quiz">START QUIZ</string>
+    <string name="enter_name">Enter your name</string>
+    <string name="name_instruction">Enter your name to begin the challenge.</string>
+
+    <!-- QUIZ SCREEN -->
+
+    <string name="quiz_information">6 Questions • Score out of 100</string>
+    <string name="submit_quiz">SUBMIT QUIZ</string>
+    <string name="student_default">Student: -</string>
+
+    <!-- QUESTION 1 -->
+
+    <string name="question_1">1. What is the main purpose of a firewall?</string>
+
+    <string name="q1_a">A) To increase internet speed</string>
+    <string name="q1_b">B) To protect a network by controlling incoming and outgoing traffic</string>
+    <string name="q1_c">C) To create a backup of files</string>
+    <string name="q1_d">D) To remove unused applications</string>
+
+    <!-- QUESTION 2 -->
+
+    <string name="question_2">2. What is phishing?</string>
+
+    <string name="q2_a">A) A method of encrypting files</string>
+    <string name="q2_b">B) A type of network cable</string>
+    <string name="q2_c">C) An attempt to trick users into revealing sensitive information</string>
+    <string name="q2_d">D) A method of creating strong passwords</string>
+
+    <!-- QUESTION 3 -->
+
+    <string name="question_3">3. Which of the following is the strongest password?</string>
+
+    <string name="q3_a">A) password123</string>
+    <string name="q3_b">B) 12345678</string>
+    <string name="q3_c">C) admin2026</string>
+    <string name="q3_d">D) T!g8#Qz2@Lm9</string>
+
+    <!-- QUESTION 4 -->
+
+    <string name="question_4">4. What is malware?</string>
+
+    <string name="q4_a">A) Software designed to harm, disrupt, or gain unauthorized access to a computer system</string>
+    <string name="q4_b">B) Software used to edit documents</string>
+    <string name="q4_c">C) A secure type of password</string>
+    <string name="q4_d">D) A network monitoring device</string>
+
+    <!-- QUESTION 5 -->
+
+    <string name="question_5">5. What is the main purpose of encryption?</string>
+
+    <string name="q5_a">A) To make a computer run faster</string>
+    <string name="q5_b">B) To convert data into a form that unauthorized users cannot easily understand</string>
+    <string name="q5_c">C) To delete unnecessary files</string>
+    <string name="q5_d">D) To increase storage capacity</string>
+
+    <!-- QUESTION 6 -->
+
+    <string name="question_6">6. What does MFA stand for?</string>
+
+    <string name="q6_a">A) Multiple File Authentication</string>
+    <string name="q6_b">B) Multi-Factor Authentication</string>
+    <string name="q6_c">C) Main Firewall Access</string>
+    <string name="q6_d">D) Managed File Authorization</string>
+
+    <!-- RESULT SCREEN -->
+
+    <string name="quiz_complete">QUIZ COMPLETE</string>
+    <string name="congratulations">Congratulations</string>
+    <string name="score_default">Your Score: 0 / 100</string>
+    <string name="correct_default">0 / 6 Correct</string>
+    <string name="well_done">Well done!</string>
+    <string name="keep_learning">Keep learning and improving.</string>
+    <string name="try_again">TRY AGAIN</string>
+
+</resources>
