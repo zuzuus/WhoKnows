@@ -1,1 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
 
+    <color name="matcha">#A8C3A0</color>
+    <color name="matcha_dark">#718C69</color>
+    <color name="matcha_light">#E5EEE2</color>
+
+    <color name="strawberry">#E8A1A1</color>
+    <color name="strawberry_dark">#C97878</color>
+    <color name="strawberry_light">#F8E1E1</color>
+
+    <color name="cream">#FFF9F3</color>
+    <color name="white">#FFFFFF</color>
+
+    <color name="text_dark">#454545</color>
+    <color name="text_grey">#777777</color>
+
+</resources>
