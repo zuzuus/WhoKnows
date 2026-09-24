@@ -31,10 +31,11 @@ class QuizActivity : AppCompatActivity() {
             val q3Sel = binding.rgQ3.checkedRadioButtonId
             val q4Sel = binding.rgQ4.checkedRadioButtonId
             val q5Sel = binding.rgQ5.checkedRadioButtonId
+            val q6Sel = binding.rgQ6.checkedRadioButtonId
 
             // Prompt if student leaves any question unselected
             if (q1Sel == -1 || q2Sel == -1 || q3Sel == -1 ||
-                q4Sel == -1 || q5Sel == -1
+                q4Sel == -1 || q5Sel == -1 || q6Sel == -1
             ) {
                 Toast.makeText(
                     this,
@@ -51,6 +52,7 @@ class QuizActivity : AppCompatActivity() {
             if (q3Sel == R.id.q3d) totalScore += 20 // Answer: D
             if (q4Sel == R.id.q4a) totalScore += 20 // Answer: A
             if (q5Sel == R.id.q5b) totalScore += 20 // Answer: B
+            if (q6Sel == R.id.q6b) totalScore += 20 // Answer: b)
 
             val resultBundle = Bundle().apply {
                 putString("EXTRA_NAME", studentName)
@@ -91,4 +93,3 @@ class QuizActivity : AppCompatActivity() {
         Log.d(TAG, "onDestroy Callback invoked")
     }
 }
-
