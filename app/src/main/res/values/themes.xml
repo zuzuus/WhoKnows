@@ -1,12 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
 
-    <style name="Theme.WhoKnows" parent="Theme.AppCompat.Light.NoActionBar">
+    <style name="Theme.STUDENTQUIZAPPLICATION"
+        parent="Theme.AppCompat.Light.NoActionBar">
 
+        <item name="android:fontFamily">sans</item>
         <item name="android:windowLightStatusBar">true</item>
-        <item name="android:statusBarColor">@color/cream</item>
-        <item name="android:navigationBarColor">@color/cream</item>
-        <item name="android:colorAccent">@color/matcha_dark</item>
+        <item name="android:statusBarColor">#FFFFFF</item>
+        <item name="android:navigationBarColor">#FFFFFF</item>
+        <item name="android:colorAccent">#6750A4</item>
 
     </style>
 
