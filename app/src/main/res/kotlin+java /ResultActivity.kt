@@ -28,9 +28,9 @@ class ResultActivity : AppCompatActivity() {
             val score = bundle.getInt("EXTRA_SCORE", 0)
 
             binding.tvNameResult.text = "Congratulations, $name!"
-            binding.tvScore.text = "Your Score: $score / 100"
+            binding.tvScore.text = "Your Score: $score / 120"
             val correctCount = score / 20
-            binding.tvCorrect.text = "$correctCount / 5 Correct"
+            binding.tvCorrect.text = "$correctCount / 6 Correct"
         }
 
         binding.btnRestart.setOnClickListener {
